@@ -11,6 +11,5 @@ export interface TaskInputProps {
   buttonText: string;
   value: string;
   onChangeText: (text: string) => void;
-  // onPress?: () => void
   onSubmitEditing: () => void;
 }
